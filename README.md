@@ -7,7 +7,7 @@ The documentation can be found [here](doc/intro.md).
 - clone the repository: git clone [https://github.com/JoSQUANTUM/geqo](https://github.com/JoSQUANTUM/geqo)
 - create a virtual environment: `python -m venv geqo-env`
 - enable environment: `source geqo-env/bin/activate`
-- install geqo with all options: `pip install -e geqo[sympy,numpy,visualization,dev]`
+- install geqo with all options: `pip install geqo[sympy,numpy,visualization,dev]`
 - optional: run unit tests: `python -m pytest geqo/tests/`
 
 ## Running a simple example
@@ -24,5 +24,14 @@ from geqo.simulators import newSimulatorUnitarySymPy
 sim=newSimulatorUnitarySymPy(2)
 sim.apply(seq,[0,1])
 sim.u
+```
+
+The expected result is
+```
+Matrix([
+[sqrt(2)/2,         0,  sqrt(2)/2,          0],
+[        0, sqrt(2)/2,          0,  sqrt(2)/2],
+[        0, sqrt(2)/2,          0, -sqrt(2)/2],
+[sqrt(2)/2,         0, -sqrt(2)/2,          0]])
 ```
 

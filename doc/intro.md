@@ -19,6 +19,15 @@ sim.apply(seq,[0,1])
 sim.u
 ```
 
+The expected result is
+```
+Matrix([
+[sqrt(2)/2,         0,  sqrt(2)/2,          0],
+[        0, sqrt(2)/2,          0,  sqrt(2)/2],
+[        0, sqrt(2)/2,          0, -sqrt(2)/2],
+[sqrt(2)/2,         0, -sqrt(2)/2,          0]])
+```
+
 ## Why a new framework for quantum circuits?
 Quantum circuits serve as a general model for quantum computations, employing abstract concepts like bit flips or rotations with
 specific angles on qubits.
