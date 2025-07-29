@@ -1,0 +1,37 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: True
+chapters:
+- file: installation
+- file: notebooks/Introduction0.ipynb
+  sections:
+  - file: notebooks/Introduction1.ipynb
+  - file: notebooks/Introduction2.ipynb
+  - file: notebooks/Introduction3.ipynb
+  - file: notebooks/Introduction4.ipynb
+  - file: notebooks/Introduction5.ipynb
+  - file: notebooks/Introduction6.ipynb
+  - file: notebooks/Introduction7.ipynb
+  - file: notebooks/Introduction8.ipynb
+- file: using_geqo
+  sections:
+  - file: notebooks/NameSpace.ipynb
+  - file: notebooks/PartialTrace.ipynb
+  - file: notebooks/QuantumAmplitudeEstimation.ipynb
+  - file: notebooks/RiskModel.ipynb
+  - file: notebooks/ToffoliDecomposition.ipynb
+- file: geqo_package_architecture
+- file: api-reference
+  sections:
+  - file: api/algorithms
+  - file: api/core
+  - file: api/gates
+  - file: api/initialization
+  - file: api/operations
+  - file: api/simulators
+  - file: api/utils
+  - file: api/visualization

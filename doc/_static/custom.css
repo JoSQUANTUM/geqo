@@ -1,0 +1,119 @@
+/* Light theme palette: [#b332ff, #61FBF8, #1E164F, #c71ab1, #4c32ff] */
+/* Dark theme palette: [#C565FF, #A8E6E6, ] */
+
+/* ---------- Light Theme ---------- */
+
+html[data-theme="light"] {
+
+    .current.reference.internal,
+    .prev-next-title,
+    .viewcode-link>span {
+        color: #b332ff !important;
+    }
+
+    .toctree-l1.current.active>a,
+    .toctree-l2.current.active>a,
+    .toc-h2.nav-item.toc-entry.active>a,
+    .toc-h3.nav-item.toc-entry.active>a {
+        color: #b332ff !important;
+        box-shadow: inset max(3px, .1875rem, .12em) 0 0 #b332ff !important;
+    }
+
+    span.std.std-doc {
+        color: #b332ff;
+        text-decoration: underline;
+        text-decoration-color: #b332ff;
+    }
+
+    span.std.std-doc:hover {
+        color: #4c32ff;
+        text-decoration-color: #4c32ff;
+    }
+
+    a:hover,
+    .bd-sidebar .nav>li>a.nav-link:hover,
+    .bd-toc .nav-link:hover,
+    .prev-next-title:hover,
+    .toctree-wrapper.compound>ul>li>a,
+    .sig-name.descname {
+        color: #4c32ff !important;
+    }
+
+    /* Permalink (hash symbol) color */
+    .headerlink {
+        color: #b332ff !important;
+    }
+
+    /* Permalink hover color */
+    .headerlink:hover {
+        color: #4c32ff !important;
+    }
+
+    /* Theme switch button */
+    --pst-color-secondary: #4c32ff;
+}
+
+/* ---------- Dark Theme ---------- */
+
+html[data-theme="dark"] {
+
+    .current.reference.internal,
+    .prev-next-title,
+    .viewcode-link>span {
+        color: #C565FF !important;
+    }
+
+    .toctree-l1.current.active>a,
+    .toctree-l2.current.active>a,
+    .toc-h2.nav-item.toc-entry.active>a,
+    .toc-h3.nav-item.toc-entry.active>a {
+        color: #C565FF !important;
+        box-shadow: inset max(3px, .1875rem, .12em) 0 0 #C565FF !important;
+    }
+
+    span.std.std-doc {
+        color: #C565FF;
+        text-decoration: underline;
+        text-decoration-color: #C565FF;
+    }
+
+    span.std.std-doc:hover {
+        color: #A8E6E6;
+        text-decoration-color: #87E2E1;
+    }
+
+    a:hover,
+    .bd-sidebar .nav>li>a.nav-link:hover,
+    .bd-toc .nav-link:hover,
+    .prev-next-title:hover,
+    .toctree-wrapper.compound>ul>li>a,
+    .sig-name.descname {
+        color: #A8E6E6 !important;
+    }
+
+    /* Permalink (hash symbol) color */
+    .headerlink {
+        color: #C565FF !important;
+    }
+
+    /* Permalink hover color */
+    .headerlink:hover {
+        color: #A8E6E6 !important;
+    }
+
+    --pst-color-secondary: #87E2E1;
+    --pst-color-background: #1E164F;
+    --pst-color-text-base: #EFEFE0;
+    --pst-color-text-muted: #EFEFE0;
+    --pst-color-primary: #C565FF;
+
+    /* Code box */
+    .cell_input.docutils.container,
+    .cell_output.docutils.container>div,
+    .highlight>pre {
+        background-color: rgb(39, 39, 83);
+        color: #EFEFE0;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
