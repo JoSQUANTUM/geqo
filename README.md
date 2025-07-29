@@ -5,9 +5,9 @@ The documentation can be found [here](doc/intro.md).
 
 ## Quick installation and testing
 - clone the repository: git clone [https://github.com/JoSQUANTUM/geqo](https://github.com/JoSQUANTUM/geqo)
-- create a virtual environment: `python3 -m venv geqo-test`
-- enable environment: `source geqo-test/bin/activate`
-- install geqo with all options: `pip3 install -e geqo/[sympy,numpy,visualization,dev]`
+- create a virtual environment: `python -m venv geqo-env`
+- enable environment: `source geqo-env/bin/activate`
+- install geqo with all options: `pip install -e geqo[sympy,numpy,visualization,dev]`
 - optional: run unit tests: `python -m pytest geqo/tests/`
 
 ## Running a simple example
