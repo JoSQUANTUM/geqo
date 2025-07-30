@@ -1,4 +1,4 @@
-# geqo Documentation
+# geqo
 geqo is a framework for constructing and describing quantum circuits and executing them on simulators and on quantum hardware devices.
 
 The documentation can be found [here](doc/intro.md).
